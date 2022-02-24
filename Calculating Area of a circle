@@ -1,0 +1,11 @@
+#include<stdio.h>
+#define pi 3.142 //Area of a circle program
+int main ()
+{
+    float A,r;
+    printf("Enter radius");
+    scanf("%f",&r);
+    A= pi*r*r
+    printf("Area=%f",A);
+    return 0
+}
